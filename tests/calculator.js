@@ -23,6 +23,6 @@ describe('Demo calculator tests', function () {
         homepage.clickGo1();
         homepage.browserSleep(1000);
         homepage.verifyResult('7');
-        homepage.browserSleep(3000);
+        homepage.browserSleep(2500);
     });
 });
